@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* overflow-x: hidden; */
+}
+body{
+    overflow-x: hidden;
+}
+.m-div{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #d7d7d7;
+    padding-top: 1px;
+    margin-top: -1px;
+    background-image: url("car1.png");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+  
+    
+}
+#head1{
+    margin-top: 10px;
+    margin-left: 30px;
+    color: blue;
+
+}
+.nav{
+    display: inline-block;
+    padding-left: 30px;
+    font-size: 20px;
+    color: blue;
+}
+    
+.navb{
+    position: absolute;
+    right: 2%;
+   top: 4%;
+}
+.free-book{
+    background-color: blue;
+    width: fit-content;
+    padding: 10px;
+    color: white;
+}
+.content{
+    position: absolute;
+    height: 30vh;
+    width: 45vw;
+    top: 20%;
+    left: 15%;
+}
+#head2{
+    font-size: 40px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.mpara{
+    margin-bottom: 5%;
+    
+}
+.serv{
+    position: absolute;
+    background-color: white;
+    height: 50vh;
+    width: 60vw;
+   top:90%;
+   left: 20%;
+}
+.serv1{
+    text-align: center;
+    width: 200px;
+    display: inline-block;
+    margin-left: 75px;
+    margin-top: 20px;
+}
+.timg{
+    width: 100%;
+}
+.cap{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
